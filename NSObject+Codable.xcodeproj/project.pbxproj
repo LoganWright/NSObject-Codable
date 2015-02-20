@@ -14,6 +14,7 @@
 		80792B5B1A97BDCC0029F3C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80792B5A1A97BDCC0029F3C6 /* Images.xcassets */; };
 		80792B5E1A97BDCC0029F3C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80792B5C1A97BDCC0029F3C6 /* LaunchScreen.xib */; };
 		80792B6A1A97BDCC0029F3C6 /* NSObject_CodableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80792B691A97BDCC0029F3C6 /* NSObject_CodableTests.m */; };
+		80792B761A97BDF10029F3C6 /* NSObject+Codable.m in Sources */ = {isa = PBXBuildFile; fileRef = 80792B751A97BDF10029F3C6 /* NSObject+Codable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		80792B631A97BDCC0029F3C6 /* NSObject+CodableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSObject+CodableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80792B681A97BDCC0029F3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80792B691A97BDCC0029F3C6 /* NSObject_CodableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_CodableTests.m; sourceTree = "<group>"; };
+		80792B741A97BDF10029F3C6 /* NSObject+Codable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Codable.h"; path = "Source/NSObject+Codable.h"; sourceTree = "<group>"; };
+		80792B751A97BDF10029F3C6 /* NSObject+Codable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Codable.m"; path = "Source/NSObject+Codable.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		80792B4C1A97BDCC0029F3C6 /* NSObject+Codable */ = {
 			isa = PBXGroup;
 			children = (
+				80792B731A97BDD10029F3C6 /* Source */,
 				80792B511A97BDCC0029F3C6 /* AppDelegate.h */,
 				80792B521A97BDCC0029F3C6 /* AppDelegate.m */,
 				80792B541A97BDCC0029F3C6 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				80792B681A97BDCC0029F3C6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80792B731A97BDD10029F3C6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				80792B741A97BDF10029F3C6 /* NSObject+Codable.h */,
+				80792B751A97BDF10029F3C6 /* NSObject+Codable.m */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				80792B561A97BDCC0029F3C6 /* ViewController.m in Sources */,
 				80792B531A97BDCC0029F3C6 /* AppDelegate.m in Sources */,
+				80792B761A97BDF10029F3C6 /* NSObject+Codable.m in Sources */,
 				80792B501A97BDCC0029F3C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
